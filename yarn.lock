@@ -1327,6 +1327,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sapper/app@link:./src/node_modules/@sapper/app::locator=sveltejs-language-tools-pnp-issue%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@sapper/app@link:./src/node_modules/@sapper/app::locator=sveltejs-language-tools-pnp-issue%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@sapper/server@link:./src/node_modules/@sapper/server::locator=sveltejs-language-tools-pnp-issue%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@sapper/server@link:./src/node_modules/@sapper/server::locator=sveltejs-language-tools-pnp-issue%40workspace%3A."
+  languageName: node
+  linkType: soft
+
+"@sapper/service-worker@link:./src/node_modules/@sapper/service-worker::locator=sveltejs-language-tools-pnp-issue%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@sapper/service-worker@link:./src/node_modules/@sapper/service-worker::locator=sveltejs-language-tools-pnp-issue%40workspace%3A."
+  languageName: node
+  linkType: soft
+
 "@tootallnate/once@npm:1":
   version: 1.1.2
   resolution: "@tootallnate/once@npm:1.1.2"
@@ -2084,6 +2102,12 @@ fsevents@~2.3.1:
   checksum: 0785670120f57b5912c6a4391d6a69914906746d259b59de884dc6d324a52a0abde38d5804f67370192fec6878d01e7306de525568abcea70eb41c2bceb9f547
   languageName: node
   linkType: hard
+
+"images@link:./src/node_modules/images::locator=sveltejs-language-tools-pnp-issue%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "images@link:./src/node_modules/images::locator=sveltejs-language-tools-pnp-issue%40workspace%3A."
+  languageName: node
+  linkType: soft
 
 "imurmurhash@npm:^0.1.4":
   version: 0.1.4
@@ -3100,9 +3124,9 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"sveltejs-language-tools-typescript-pnp-issue@workspace:.":
+"sveltejs-language-tools-pnp-issue@workspace:.":
   version: 0.0.0-use.local
-  resolution: "sveltejs-language-tools-typescript-pnp-issue@workspace:."
+  resolution: "sveltejs-language-tools-pnp-issue@workspace:."
   dependencies:
     "@babel/core": ^7.0.0
     "@babel/plugin-syntax-dynamic-import": ^7.0.0
@@ -3114,7 +3138,11 @@ fsevents@~2.3.1:
     "@rollup/plugin-node-resolve": ^8.0.0
     "@rollup/plugin-replace": ^2.4.0
     "@rollup/plugin-url": ^5.0.0
+    "@sapper/app": "link:./src/node_modules/@sapper/app"
+    "@sapper/server": "link:./src/node_modules/@sapper/server"
+    "@sapper/service-worker": "link:./src/node_modules/@sapper/service-worker"
     compression: ^1.7.1
+    images: "link:./src/node_modules/images"
     polka: next
     rollup: ^2.3.4
     rollup-plugin-svelte: ^7.0.0
